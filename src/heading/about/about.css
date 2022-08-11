@@ -1,0 +1,158 @@
+
+
+ /* --------------------about css start-------------------- */
+
+
+.container{
+    display: inline-flex;
+}
+
+.aboutHome{
+    height: 50%;
+    background-color: white;
+    box-shadow: 2px 1px 50px #000000;
+}
+
+.aboutHome #heading{
+    text-align: left;  
+}
+
+.aboutHome .left-row img{
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+/* -------------------------left end----------------------- */
+
+
+
+/* -------------------------right start----------------------- */
+.aboutHome .right{
+    padding:25% 50px;
+    width: 50%;
+    height: 50%;
+    margin: 2px;
+    margin-top: -38%;       
+}
+
+.aboutHome .items{
+    margin-top:10px;
+}
+.aboutHome .item{   
+    background-color:rgb(255, 255, 255);
+    margin-top: -216.5px; 
+    padding: 9px; 
+    transition: 0.5s;
+    width: 120%;   
+    margin: 5px;
+    cursor: pointer;
+}
+.aboutHome .item:hover{
+    background-color: rgb(49, 154, 163);
+    box-shadow: 3px 4px 25px #000000;
+    cursor: pointer;
+    border-radius: 2px;
+    transform: scale(1.1);
+}
+
+.right h2{
+    font-weight: 600;
+}
+.right  p{
+    margin-left: 0%;
+}
+
+
+.aboutHome .right .imgs{
+    width: 15px;
+    height: 15px;   
+    margin-top: 10px;
+}
+.aboutHome .right .imgs img{
+    width: 30px;
+    height: 30px;  
+}
+
+
+.item .text{
+    margin: 260px;
+    width:30%;
+    height: 20px;
+    margin-top: 20%;
+    font-size: 50%; 
+    display: inline;
+}
+.item .text h2{
+    position: absolute;
+    margin: 50px;
+    margin-top: 0%; 
+    font-size: 15px;
+}
+.item .text p{
+    position: absolute;
+    margin: 10px;
+    margin-top: -2%; 
+    color: #000000;
+    cursor: pointer;
+}
+
+/* -------------------------right end----------------------- */
+ /* --------------------about css ends-------------------- */
+
+
+
+ /* --------------------awrapper css start-------------------- */
+.awrapper{
+    /* background-image: url("/public/longslider1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color:rgb(255, 99, 99);
+    height: 20vh;
+    color: rgb(255, 255, 255);
+    padding-top: 2%;
+    text-align: center;
+    margin-top: -15%;
+    margin-left:2.6%;
+    margin-right:2.6%;
+    cursor: pointer;
+    border-radius: 20px 60px ;    
+}
+.awrapper:hover{
+    background-color: rgb(49, 154, 163);
+    box-shadow: 3px 10px 35px  #000000;
+    color: aliceblue;
+}
+
+
+.awrapper .box{
+    padding: 1rem 0px;
+    text-align: cen;
+    width: 217px;
+    height: 20px;
+    cursor: pointer;
+    display: inline;
+}
+.awrapper  img {
+    margin-right: 50px;
+    width: 55px;
+    height: 55px;   
+}
+
+.awrapper h1{
+    font-size: 10px;
+    text-align: left;
+    padding-top: 30%;
+    margin-right: 50px;
+}
+.awrapper h3{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+ /* --------------------awrapper css ends-------------------- */

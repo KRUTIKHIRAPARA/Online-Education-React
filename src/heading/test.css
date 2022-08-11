@@ -1,0 +1,178 @@
+
+
+
+ /* --------------------test start-------------------- */
+
+.subjects{
+    width: 100%;
+    margin-top: 0%;
+    background-color:  #002333;
+}
+.subjects .container{
+    display: inline-flex;
+    width: 100%;
+}
+
+.subjects .container .imgs{
+    width: 50%;
+    margin: 20px;
+    flex:1 1 35rem;
+}
+
+.subjects .container .imgs img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 2%;
+    animation: float 10s linear infinite;
+}
+
+@keyframes float
+{
+	0%, 100%{
+		transform: translate(0rem);
+	}
+	50%{
+		transform: translate(3rem);
+	}
+}
+.subjects .container .abc{
+    margin-left: 60px;
+    width: 50%;
+}
+
+.subjects .container .abc .items h1{
+    font-size: 30px;
+    padding-top: 10%;
+    color:#ffffff;;
+    text-shadow: 2px 3px 5px #faaaaa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .items p{
+    font-size: 15px;
+    margin-left: 0%;
+    padding-top: 10%;
+    color: rgb(180 238 255);
+    word-spacing: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ /* --------------------test ends-------------------- */
+
+
+
+
+/*  -----------------------test2 start-----------------------*/
+.subject{
+    width: 100%;
+    margin-top: 0%;
+    background-color: #002333;
+}
+.subject .container{
+    display: inline-flex;
+    width: 100%;
+}
+
+.subject .container .imgs2{
+    width: 50%;
+    margin: 20px;
+    flex:1 1 35rem;
+}
+
+.subject .container .imgs2 img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 2%;
+    animation: float 10s linear infinite;
+
+}
+@keyframes float
+{
+	0%, 100%{
+		transform: translate(0rem);
+	}
+	50%{
+		transform: translate(3rem);
+	}
+}
+
+.subject .container .xyz {
+    margin-left: 60px;
+    width: 50%;
+}
+
+.subject .container .xyz .item h1{
+    font-size: 30px;
+    padding-top: 10%;
+    color:#ffffff;
+    text-shadow: 2px 3px 5px #faaaaa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.item p{
+    font-size: 15px;
+    margin-left: 0%;
+    padding-top: 10%;
+    color: rgb(180 238 255);
+    word-spacing: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ /* --------------------test2 ends-------------------- */
+
+
+
+
+/* -----------------------test3 start------------------------- */
+.subjects{
+    width: 100%;
+    margin-top: 0%;
+}
+.subjects .container{
+    display: inline-flex;
+    width: 100%;
+}
+
+.subjects .container .imges{
+    width: 50%;
+    margin: 20px;
+    flex:1 1 35rem;
+   
+}
+.subjects .container .imges img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 2%;
+    animation: float 10s linear infinite;
+}
+
+@keyframes float
+{
+	0%, 100%{
+		transform: translate(0rem);
+	}
+	50%{
+		transform: translate(3rem);
+	}
+}
+
+.subjects .container .mnp {
+    margin-left: 60px;
+    width: 50%;
+}
+
+.subjects .container .mnp .items h1{
+    font-size: 30px;
+    padding-top: 10%;
+    color:#ffffff; 
+    text-shadow: 2px 3px 5px #faaaaa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .items p{
+    font-size: 15px;
+    margin-left: 0%;
+    padding-top: 10%;
+    color: rgb(180 238 255);
+    word-spacing: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ /* --------------------test3 ends-------------------- */

@@ -1,0 +1,73 @@
+
+
+
+ /* --------------------header css start-------------------- */
+
+
+body{
+    background-color:#002333;
+}
+
+
+.head{
+    padding: 2px;
+    background-color:lightcyan;  
+}
+.abc .imgs img{
+    border: none;
+    width: 30%;
+    height: 20%;
+    margin-left:3%;
+    padding-top: -10%;
+    text-align: center;
+}
+
+.menu ul li {
+    display:inline;
+    list-style: none;  
+    word-spacing: 50px;
+    margin-top: 10px;   
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+    margin-left: 10px;  
+    padding:4px 0;
+    position: relative;
+} 
+
+.menu ul li a:hover{
+    color: red;
+}
+.menu ul li a:before{
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left:0%;
+    height:3px;
+    width: 0%;
+    background: #26576e;
+    transition: all 0.5s ease;
+}
+
+.menu ul li a:hover:before{
+   width:100%;
+}
+
+
+.container  .xyz{
+    display: inline;
+}
+
+.menu{
+    margin-left: 65%;
+    position: absolute;
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+
+
+ /* --------------------header css ends-------------------- */
+
+

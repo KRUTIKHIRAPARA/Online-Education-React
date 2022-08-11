@@ -1,0 +1,167 @@
+
+  
+.all{
+    width: 100%;
+    margin-top: 0%;
+    background-color:  #002333;
+}
+.all .container{
+    display: inline-flex;
+    width: 100%;
+}
+
+.all .container .abc{
+    margin-left: 60px;
+    width: 100%;
+}
+
+.all .container .abc .items h1{
+    font-size: 30px;
+    padding-top: 5%;
+    color:#ffffff;
+    text-shadow: 2px 3px 5px #faaaaa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .items p{
+    font-size: 15px;
+    margin-left: 0%;
+    padding-top: 3%;
+    color: rgb(180 238 255);
+    word-spacing: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bttn{
+    margin-left:80%;
+    margin-top: 15px;
+    background-color:#002333;
+    width: 100px;
+    height: 30px;
+    color:white;
+    cursor: pointer;
+    border: 3px solid lightcyan;
+    border-radius: 6px 6px 6px  6px;
+}
+
+.download{
+    text-align: center;
+    font-size:15px;
+    margin-left:0%;
+    text-decoration: none;
+    margin-top: 0px;
+    color:rgb(253, 0, 0);
+    height: 5.7vh;
+}
+.download:hover{
+    background-color: #d01313;
+    color: #000000;
+    height: 4.8vh;
+    border-radius: 6px 6px 6px  6px;
+}
+.imgg{
+    width: 100%;
+    height: 100vh;
+}
+
+.imgg span{
+width: 50%;
+height: 80vh;
+padding: 20%;
+}
+
+.imgg img{ 
+    width: 50%;
+    height:55vh;
+    display: inline-block;
+    margin-left:33%;
+    margin-top: -33%;
+}
+
+.items ul p{
+color: #d95b5b;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.review{
+    width: 100%;
+    height: 100%;
+    margin-top: -20%;
+}
+.contant h3{
+    margin-left: 45%;
+    color: #002333;
+    width: 10%;
+    text-shadow:2px #d01313;
+}
+
+ .form2 form{
+    background-color:rgb(170, 223, 240);
+      margin-left:10%;
+      width:80%;
+      height: 70%;
+      padding:1%;
+      border-radius: 8px;
+  }
+  
+  .form2 form input{
+      height: 30px;
+      margin-right: 5%;
+      width: 90%;
+      margin-top: 10px;
+      border-radius: 8px;
+      color: black;
+      background-color: #1b1b1bc1;
+      margin: 7px;
+      border: none;
+      padding-left: 5px;
+  }
+   input:hover{
+      box-shadow: 1px 2px 5px #002333;
+      
+  }
+  
+  .form2 .msg{
+          height: 15vh;
+  }
+  
+  
+  .form2 .msg::placeholder{
+      margin-top: 10px;
+      position: absolute ;
+  }
+  .form2 .btn{
+      width: 100px;
+      text-align: center;
+      background-color: #56939f;
+      color:rgb(5, 0, 64);
+      border: 2px ;
+      cursor: pointer;
+      margin-top: 5px;
+      font-weight: bold;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+   .btn:hover{
+      background-color: rgb(255, 0, 0);
+      color: #000000;
+      
+  }
+  
